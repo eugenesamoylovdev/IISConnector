@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="Группа4" id="29">
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="30"/>
+			<ChildItems>
+				<UsualGroup name="Группа3" id="21">
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="22"/>
+					<ChildItems>
+						<InputField name="КаталогОбработчика" id="23">
+							<DataPath>КаталогОбработчика</DataPath>
+							<ContextMenu name="КаталогОбработчикаКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="КаталогОбработчикаРасширеннаяПодсказка" id="25"/>
+						</InputField>
+						<InputField name="ИмяФайла" id="26">
+							<DataPath>ИмяФайла</DataPath>
+							<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="28"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа2" id="7">
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="8"/>
+					<ChildItems>
+						<InputField name="ИмяСайта" id="9">
+							<DataPath>ИмяСайта</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>beta-buh-tasks.42clouds.com</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="ИмяСайтаКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="ИмяСайтаРасширеннаяПодсказка" id="11"/>
+						</InputField>
+						<InputField name="ИмяПула" id="12">
+							<DataPath>ИмяПула</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>buh-task-8.3.17.1549</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="ИмяПулаКонтекстноеМеню" id="13"/>
+							<ExtendedTooltip name="ИмяПулаРасширеннаяПодсказка" id="14"/>
+						</InputField>
+						<InputField name="ИмяПриложения" id="15">
+							<DataPath>ИмяПриложения</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>1c_my_1118</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="ИмяПриложенияКонтекстноеМеню" id="16"/>
+							<ExtendedTooltip name="ИмяПриложенияРасширеннаяПодсказка" id="17"/>
+						</InputField>
+						<InputField name="Путь" id="18">
+							<DataPath>Путь</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>C:\inetpub\beta-buh-task\1c_my_1118</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="ПутьКонтекстноеМеню" id="19"/>
+							<ExtendedTooltip name="ПутьРасширеннаяПодсказка" id="20"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="1">
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Button name="КомандаДобавитьПриложение" id="3">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.КомандаДобавитьПриложение</CommandName>
+					<ExtendedTooltip name="КомандаДобавитьПриложениеРасширеннаяПодсказка" id="4"/>
+				</Button>
+				<Button name="КомандаУдалитьПриложение" id="5">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.КомандаУдалитьПриложение</CommandName>
+					<ExtendedTooltip name="КомандаУдалитьПриложениеРасширеннаяПодсказка" id="6"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.IisConnector</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ИмяСайта" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя сайта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ИмяСайта</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ИмяПула" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя пула</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ИмяПула</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ИмяПриложения" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя приложения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ИмяПриложения</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="Путь" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>Путь</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="КаталогОбработчика" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог обработчика</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>КаталогОбработчика</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ИмяФайла" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя файла</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ИмяФайла</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаДобавитьПриложение" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить приложение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда добавить приложение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаДобавитьПриложение</Action>
+		</Command>
+		<Command name="КомандаУдалитьПриложение" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить приложение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда удалить приложение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаУдалитьПриложение</Action>
+		</Command>
+	</Commands>
+</Form>
